@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Brave Search Engine",
-"short_name": "Brave Search",
+    "short_name": "Brave Search",
     "version": "1.0",
 
     "description": "Adds the Brave Search Engine as a usable search engine in Firefox.",
@@ -35,7 +35,8 @@
     
     "browser_specific_settings": {
         "gecko": {
-            "id": "firefox-brave-search-engine-addon@OpenSource"
+            "id": "firefox-brave-search-engine-addon@cqhudson",
+            "strict_min_version": "127.0"
         }
     },
 
