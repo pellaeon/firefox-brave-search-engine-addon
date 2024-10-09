@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Brave Search Engine",
+"short_name": "Brave Search",
     "version": "1.0",
 
     "description": "Adds the Brave Search Engine as a usable search engine in Firefox.",
