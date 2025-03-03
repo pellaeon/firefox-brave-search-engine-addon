@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "Brave Search Engine",
-    "short_name": "Brave Search",
+    "name": "Brave Search Engine (Taiwan Goggle)",
+    "short_name": "Brave Search (Taiwan)",
     "version": "1.0",
 
-    "description": "Adds the Brave Search Engine as a usable search engine in Firefox.",
+    "description": "Adds the Brave Search Engine as a usable search engine in Firefox, while using the \"Taiwan Research\" goggle.",
 
     "icons": {
         "48": "icons/brave-search-icon.svg",
@@ -15,7 +15,7 @@
         "homepage": "https://search.brave.com/",
         "search_provider": {
             "name": "Brave Search",
-            "search_url": "https://search.brave.com/search?q={searchTerms}",
+            "search_url": "https://search.brave.com/search?goggles_id=https%3A%2F%2Fraw.githubusercontent.com%2Fpellaeon%2Fbrave-goggles%2Frefs%2Fheads%2Fmain%2Fgoggles%2Ftaiwan_research.goggle&q={searchTerms}",
             "suggest_url": "https://search.brave.com/api/suggest?q={searchTerms}",
             "is_default": true,
             "keyword": "@brave"
@@ -41,7 +41,7 @@
     },
 
     "developer": {
-        "name": "cqhudson",
-        "url": "https://github.com/cqhudson"
+        "name": "pellaeon",
+        "url": "https://github.com/pellaeon"
     }
 }
